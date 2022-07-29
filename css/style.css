@@ -1,0 +1,116 @@
+*{
+	padding: 0PX;
+	margin: 0px;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	height: 1400px;
+}
+.skyblue{
+	width: 1300px;
+	height: 20;
+	background: skyblue;
+	position: fixed;
+	z-index: 1;
+	font-size: center;
+}
+h1,h3,h4,h5,h6{
+	font-family: 'Poppins', sans-serif;
+}
+.green{
+	width: 600px;
+	height: 300px;
+	background: green;
+	position: relative;
+}
+.red{
+	width: 180px;
+	height: 180px;
+background: red;
+border-radius: 100%;
+position: absolute;
+top:20% ;
+right:35% ;
+z-index: 1;
+}
+.green .fb{
+	width: 190px;
+	position: fixed;
+	top: 40%;
+	right: -110px;
+	transition: 1s;
+}
+.green .fb:hover{
+	right: -2px;
+	cursor: pointer;
+
+}
+.green .whatsapp{
+	width: 120px;
+	position: fixed;
+	top: 50%;
+	right: -91px;
+	transition: 1s;
+}
+.green .whatsapp:hover{
+	right:-2px;
+	cursor: pointer;
+
+}
+.green .twitter{
+	width: 120px;
+	position:fixed ;
+	top: 20%;
+	right: -70px;
+	transition: 1s;
+}
+.green .twitter:hover{
+	right: -2px;
+	cursor: pointer;
+}
+.green .share{
+	width: 95px;
+	position:fixed ;
+	top: 15%;
+	right: -70px;
+	transition: 1s;
+}
+.green .share:hover{
+	right: -2px;
+	cursor: pointer;
+
+}
+.social-icons{
+	width: 100%;
+	display: block;
+	text-align: center;
+	padding: 40px 0px;
+
+}
+.social-icons li{
+	list-style:none ;
+	display: inline-block;
+}
+.social-icons li a{
+	display: block;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	border-radius: 100%;
+	background: #000;
+	border: 2px solid #000;
+	font-size: 25px;
+	margin: 0px 15px;
+	color: #fff;
+}
+.social-icons li a:hover{
+	background: transparent;
+	color: #000;
+	border-radius: #000;
+}
+.social-icons li a:focus{
+	background: transparent;
+	color: #000;
+	border-radius: #000;
